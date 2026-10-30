@@ -1,0 +1,209 @@
+{
+  "selectedParentItems": [
+    {
+      "type": "collabAgentToolCall",
+      "id": "CALL_1",
+      "tool": "spawnAgent",
+      "status": "completed",
+      "prompt": "[redacted]",
+      "receiverThreadIds": [
+        "CHILD_1"
+      ],
+      "agentsStates": {
+        "CHILD_1": {
+          "status": "pendingInit"
+        }
+      }
+    },
+    {
+      "type": "collabAgentToolCall",
+      "id": "CALL_2",
+      "tool": "spawnAgent",
+      "status": "completed",
+      "prompt": "[redacted]",
+      "receiverThreadIds": [
+        "CHILD_2"
+      ],
+      "agentsStates": {
+        "CHILD_2": {
+          "status": "pendingInit"
+        }
+      }
+    },
+    {
+      "type": "collabAgentToolCall",
+      "id": "CALL_3",
+      "tool": "sendInput",
+      "status": "completed",
+      "prompt": "[redacted]",
+      "receiverThreadIds": [
+        "CHILD_1"
+      ],
+      "agentsStates": {
+        "CHILD_1": {
+          "status": "running"
+        }
+      }
+    },
+    {
+      "type": "collabAgentToolCall",
+      "id": "CALL_4",
+      "tool": "sendInput",
+      "status": "completed",
+      "prompt": "[redacted]",
+      "receiverThreadIds": [
+        "CHILD_2"
+      ],
+      "agentsStates": {
+        "CHILD_2": {
+          "status": "running"
+        }
+      }
+    },
+    {
+      "type": "collabAgentToolCall",
+      "id": "CALL_5",
+      "tool": "wait",
+      "status": "completed",
+      "prompt": null,
+      "receiverThreadIds": [
+        "CHILD_1"
+      ],
+      "agentsStates": {
+        "CHILD_1": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "type": "collabAgentToolCall",
+      "id": "CALL_6",
+      "tool": "sendInput",
+      "status": "completed",
+      "prompt": "[redacted]",
+      "receiverThreadIds": [
+        "CHILD_1"
+      ],
+      "agentsStates": {
+        "CHILD_1": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "type": "collabAgentToolCall",
+      "id": "CALL_7",
+      "tool": "sendInput",
+      "status": "completed",
+      "prompt": "[redacted]",
+      "receiverThreadIds": [
+        "CHILD_2"
+      ],
+      "agentsStates": {
+        "CHILD_2": {
+          "status": "running"
+        }
+      }
+    },
+    {
+      "type": "collabAgentToolCall",
+      "id": "CALL_8",
+      "tool": "sendInput",
+      "status": "completed",
+      "prompt": "[redacted]",
+      "receiverThreadIds": [
+        "CHILD_2"
+      ],
+      "agentsStates": {
+        "CHILD_2": {
+          "status": "running"
+        }
+      }
+    },
+    {
+      "type": "collabAgentToolCall",
+      "id": "CALL_9",
+      "tool": "sendInput",
+      "status": "completed",
+      "prompt": "[redacted]",
+      "receiverThreadIds": [
+        "CHILD_2"
+      ],
+      "agentsStates": {
+        "CHILD_2": {
+          "status": "running"
+        }
+      }
+    },
+    {
+      "type": "collabAgentToolCall",
+      "id": "CALL_10",
+      "tool": "wait",
+      "status": "completed",
+      "prompt": null,
+      "receiverThreadIds": [
+        "CHILD_2"
+      ],
+      "agentsStates": {
+        "CHILD_2": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "type": "collabAgentToolCall",
+      "id": "CALL_11",
+      "tool": "closeAgent",
+      "status": "completed",
+      "prompt": null,
+      "receiverThreadIds": [
+        "CHILD_2"
+      ],
+      "agentsStates": {
+        "CHILD_2": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "type": "collabAgentToolCall",
+      "id": "CALL_12",
+      "tool": "wait",
+      "status": "completed",
+      "prompt": null,
+      "receiverThreadIds": [
+        "CHILD_1"
+      ],
+      "agentsStates": {
+        "CHILD_1": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "type": "collabAgentToolCall",
+      "id": "CALL_13",
+      "tool": "closeAgent",
+      "status": "completed",
+      "prompt": null,
+      "receiverThreadIds": [
+        "CHILD_1"
+      ],
+      "agentsStates": {
+        "CHILD_1": {
+          "status": "completed"
+        }
+      }
+    }
+  ],
+  "children": [
+    {
+      "id": "CHILD_1",
+      "lastTurnStatus": "completed"
+    },
+    {
+      "id": "CHILD_2",
+      "lastTurnStatus": "completed"
+    }
+  ]
+}
